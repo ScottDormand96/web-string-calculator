@@ -4,8 +4,16 @@
   "description": "front end string calculator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab",
+    "start": "node index.js"
   },
   "author": "Scott Dormand and Neil McLaughlin",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.3",
+    "@hapi/lab": "^24.1.1"
+  }
 }
